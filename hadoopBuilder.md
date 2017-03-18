@@ -1,7 +1,7 @@
 ## Hadoop builder
 
 
-Hadoop source download : https://www.apache.org/dyn/closer.cgi#verify
+Hadoop verification: https://www.apache.org/dyn/closer.cgi#verify
 
 
 #### Downloading hadoop and set up 
