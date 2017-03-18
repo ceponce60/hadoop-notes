@@ -25,7 +25,7 @@
 
 >> Quorum journal manager (QJM) -  dedicated HDFS Implmentation, designed for the sole purpose of providing a highly available edit log, and is the recommended choice for most HDFS installations. The QJM runs as group of journal nodes, and each edit ust be writted to a major of the journal nodes. 
 
-the QJM only allows one namenode to write to the edit log at one time, hoever it is still possible for the previously active namenode to serve stale read requests to clients, so setting up an SSH fencing command that will kill the namenode's process is a good idea. Stronger fencning methods are required when using an NFS filer for the shared edit log, since it is not possible to only allow one namnode to write at a time. the range of fencing mechanisms includes revoking the namenodes access to the shared storage directory and disabling its network port via a remote management command. Last resort: STONITH = forcibly power down the host machine.
+>> the QJM only allows one namenode to write to the edit log at one time, hoever it is still possible for the previously active namenode to serve stale read requests to clients, so setting up an SSH fencing command that will kill the namenode's process is a good idea. Stronger fencning methods are required when using an NFS filer for the shared edit log, since it is not possible to only allow one namnode to write at a time. the range of fencing mechanisms includes revoking the namenodes access to the shared storage directory and disabling its network port via a remote management command. Last resort: STONITH = forcibly power down the host machine.
 
 > Analyze the role of HDFS security (Kerberos)
 
