@@ -2,7 +2,7 @@
 ## 1. HDFS (17%)
 
 > Describe the function of HDFS daemons
-
+> Email about this question, should this mean hadoop in general?
 >> Daemons in computing terms is a process that runs in the background. Hadoop has five such daemons. They are NameNode, Secondary NameNode, DataNode, JobTracker and TaskTracker. 
 
 > Describe the normal operation of an Apache Hadoop cluster, both in data storage and in data processing
@@ -41,6 +41,7 @@
 
 > Identify the commands to manipulate files in the Hadoop File System Shell
 
+? hadoop <regular shell commands to manuipulate any filesystem>
 
 ## 2. YARN (17%)
 
@@ -59,6 +60,11 @@
 ## 3. Hadoop Cluster Planning (16%)
 
 > Principal points to consider in choosing the hardware and operating systems to host an Apache Hadoop cluster
+
+>> Hardware :
+>>> Processor : Two hex/octo-core 3 GHz CPUs , Memory : 64-512 GB ECC RAM, Storage: 12-24 x 1-4 TB SATA disks, Network: Gigabit Ethernet with link aggregation.
+ 
+>> OS : ?
 
 > Analyze the choices in selecting an OS
 
