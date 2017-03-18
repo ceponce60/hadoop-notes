@@ -14,7 +14,7 @@ Hadoop verification: https://www.apache.org/dyn/closer.cgi#verify
 	cd /usr/local
 	```
 	``` 
-	curl 'http://www-us.apache.org/dist/hadoop/common/hadoop-2.7.3/
+	curl 'http://www-us.apache.org/dist/hadoop/common/hadoop-2.7.3/'
 	```
 	```
 	hadoop-2.7.3-src.tar.gz'
